@@ -56,6 +56,7 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 }
 
 /* nav style */
@@ -163,6 +164,62 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+.resume{
+    text-align: center;
+}
+.resume-column{
+    
+
+}
+.resume-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    margin-bottom: 50px;
+    
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+
+}
+.experience-sub-title{
+    font-weight: 700px;
+    font-size: 20px;
+    color: #D9D9D9;
+    margin-top: 0px;
+}
+ 
+/* footer-style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 24px;
+  border: none;
+
+
 
 
 }
